@@ -1,0 +1,38 @@
+{
+  "name": "modulizr",
+  "version": "1.0.0",
+  "description": "Node DI Framework",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgilsaa/modulizr.git"
+  },
+  "keywords": [
+    "node",
+    "di"
+  ],
+  "author": "gilsaaj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jgilsaa/modulizr/issues"
+  },
+  "homepage": "https://github.com/jgilsaa/modulizr#readme",
+  "dependencies": {
+    "inversify": "5.0.1",
+    "reflect-metadata": "0.1.13"
+  },
+  "devDependencies": {
+    "@types/jest": "26.0.15",
+    "@typescript-eslint/eslint-plugin": "4.6.0",
+    "@typescript-eslint/parser": "4.6.0",
+    "eslint": "7.12.1",
+    "jest": "26.6.1",
+    "ts-jest": "26.4.3",
+    "typescript": "4.0.5"
+  }
+}
